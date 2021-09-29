@@ -1,0 +1,11 @@
+<div class="row justify-content-center text-center" *ngIf="project">
+    <div class="col-12 my-2">
+        <img src="{{ project.imgSrc }}" alt="{{ project.title }}">
+    </div>
+    <div class="col-12 my-2 text-white">
+        <span>{{ project.title }}</span>
+    </div>
+    <div class="col-12 my-2 text-white">
+        <p>{{ project.description }}</p>
+    </div>
+</div>

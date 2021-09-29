@@ -1,0 +1,14 @@
+<div class="row justify-content-center my-3">
+  <div class="col-12 text-center">
+    <h2 class="text-primary">My Projects</h2>
+  </div>
+</div>
+<div class="row justify-content-center my-5">
+  <div class="col-3" *ngFor="let project of projects">
+    <app-project
+      imgSrc="{{ project.imgSrc }}"
+      title="{{ project.title }}"
+      description="{{ project.description }}"
+    ></app-project>
+  </div>
+</div>

@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fs-4">
+    <div class="container-fluid">
+      <a class="navbar-brand text-primary fs-3" href="#" (click)="onSelect('home')">Dvir Datner</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a id="home-nav" class="nav-link active" href="#" (click)="onSelect('home')">Home</a>
+          </li>
+          <li class="nav-item">
+            <a id="projects-nav" class="nav-link" href="#" (click)="onSelect('projects')">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a id="certificates-nav" class="nav-link" href="#" (click)="onSelect('certificates')">Certificates</a>
+          </li>
+          <li class="nav-item">
+            <a id="about-nav" class="nav-link" href="#" (click)="onSelect('about')">About</a>
+          </li>
+          <li class="nav-item">
+            <a id="skills-nav" class="nav-link" href="#" (click)="onSelect('skills')">Skills</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+              <a id="contact-nav" class="nav-link" href="#" (click)="onSelect('contact')">Contact</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </nav>
