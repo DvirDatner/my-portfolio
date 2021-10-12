@@ -4,11 +4,20 @@
   </div>
 </div>
 <div class="row justify-content-center my-5">
-  <div class="col-3" *ngFor="let project of projects">
-    <app-project
-      imgSrc="{{ project.imgSrc }}"
-      title="{{ project.title }}"
-      description="{{ project.description }}"
-    ></app-project>
+  <div class="col-12 text-center">
+    <swiper [config]="config">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide text-white" *ngFor="let project of projects;">
+          <a href="{{ project.link }}" target="blank">
+            <img src="{{ project.imgSrc }}" alt="{{ project.title }}" />
+          <h3 class="text-outline my-3">{{ project.title }}</h3>
+          <p class="text-outline">{{ project.description }}</p>
+          </a>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </swiper>
   </div>
 </div>

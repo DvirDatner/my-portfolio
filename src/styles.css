@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+/* @font-face {
+  font-family: "AnandaPro";
+  src: url("assets/fonts/Andada_Pro/AndadaPro-VariableFont_wght.ttf");
+} */
+
+@font-face {
+  font-family: "NotoSansMono";
+  src: url("assets/fonts/Noto_Sans_Mono/static/NotoSansMono/NotoSansMono-Regular.ttf");
+}
+
+body {
+  font-family: "NotoSansMono";
+}
