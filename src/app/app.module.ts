@@ -11,6 +11,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { ContactComponent } from './contact/contact.component';
 
 import { NgxUsefulSwiperModule } from 'ngx-useful-swiper';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { NgxUsefulSwiperModule } from 'ngx-useful-swiper';
   ],
   imports: [
     BrowserModule,
-    NgxUsefulSwiperModule
+    NgxUsefulSwiperModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

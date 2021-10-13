@@ -1,13 +1,8 @@
-<app-header (featureSelected)="onNavigate($event)"></app-header>
+<app-header></app-header>
 <div class="container">
   <div class="row justify-content-center">
     <div class="col-10">
-      <app-home *ngIf="loadedFeature === 'home'"></app-home>
-      <app-projects *ngIf="loadedFeature === 'projects'"></app-projects>
-      <app-certificates *ngIf="loadedFeature === 'certificates'"></app-certificates>
-      <app-about *ngIf="loadedFeature === 'about'"></app-about>
-      <app-skills *ngIf="loadedFeature === 'skills'"></app-skills>
-      <app-contact *ngIf="loadedFeature === 'contact'"></app-contact>
+      <router-outlet></router-outlet>
     </div>
   </div>
 </div>
