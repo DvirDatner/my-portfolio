@@ -29,42 +29,15 @@ export class SkillsComponent implements OnInit {
   ];
 
   toolsSkills: Skill[] = [
-    new Skill(
-      'assets/images/skills/aws.png',
-      'AWS'
-    ),
-    new Skill(
-      'assets/images/skills/github.png',
-      'GitHub'
-    ),
-    new Skill(
-      'assets/images/skills/google_api.png',
-      'Google API'
-    ),
-    new Skill(
-      'assets/images/skills/visual_studio_code.png',
-      'VS Code'
-    ),
-    new Skill(
-      'assets/images/skills/visual_studio.png',
-      'Visual Studio'
-    ),
-    new Skill(
-      'assets/images/skills/android_studio.png',
-      'Android Studio'
-    ),
-    new Skill(
-      'assets/images/skills/eclipse.png',
-      'Eclipse'
-    ),
-    new Skill(
-      'assets/images/skills/intellij.png',
-      'IntelliJ'
-    ),
-    new Skill(
-      'assets/images/skills/webstorm.png',
-      'WebStorm'
-    ),
+    new Skill('assets/images/skills/aws.png', 'AWS'),
+    new Skill('assets/images/skills/github.png', 'GitHub'),
+    new Skill('assets/images/skills/google_api.png', 'Google API'),
+    new Skill('assets/images/skills/visual_studio_code.png', 'VS Code'),
+    new Skill('assets/images/skills/visual_studio.png', 'Visual Studio'),
+    new Skill('assets/images/skills/android_studio.png', 'Android Studio'),
+    new Skill('assets/images/skills/eclipse.png', 'Eclipse'),
+    new Skill('assets/images/skills/intellij.png', 'IntelliJ'),
+    new Skill('assets/images/skills/webstorm.png', 'WebStorm'),
   ];
 
   constructor() {}

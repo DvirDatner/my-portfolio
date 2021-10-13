@@ -8,7 +8,6 @@ import { SwiperOptions } from 'swiper';
 })
 export class CertificatesComponent implements OnInit {
   config: SwiperOptions = {
-    effect: 'flip',
     grabCursor: true,
     pagination: {
       el: '.swiper-pagination',

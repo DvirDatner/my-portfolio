@@ -19,7 +19,10 @@
   <div class="col-12">
     <h5 class="text-primary">Languages:</h5>
   </div>
-  <div class="col-3 col-sm-2 col-xl-1 text-center" *ngFor="let skill of languagesSkills">
+  <div
+    class="col-3 col-sm-2 col-xl-1 text-center"
+    *ngFor="let skill of languagesSkills"
+  >
     <img src="{{ skill.imgSrc }}" alt="{{ skill.title }}" />
     <p class="text-outline">{{ skill.title }}</p>
   </div>
@@ -28,7 +31,10 @@
   <div class="col-12">
     <h5 class="text-primary">Databases:</h5>
   </div>
-  <div class="col-3 col-sm-2 col-xl-1 text-center" *ngFor="let skill of databasesSkills">
+  <div
+    class="col-3 col-sm-2 col-xl-1 text-center"
+    *ngFor="let skill of databasesSkills"
+  >
     <img src="{{ skill.imgSrc }}" alt="{{ skill.title }}" />
     <p class="text-outline">{{ skill.title }}</p>
   </div>
@@ -37,7 +43,10 @@
   <div class="col-12">
     <h5 class="text-primary">Tools:</h5>
   </div>
-  <div class="col-3 col-sm-2 col-xl-1 text-center" *ngFor="let skill of toolsSkills">
+  <div
+    class="col-3 col-sm-2 col-xl-1 text-center"
+    *ngFor="let skill of toolsSkills"
+  >
     <img src="{{ skill.imgSrc }}" alt="{{ skill.title }}" />
     <p class="text-outline">{{ skill.title }}</p>
   </div>
