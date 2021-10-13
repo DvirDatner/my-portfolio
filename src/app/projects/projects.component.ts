@@ -33,31 +33,31 @@ export class ProjectsComponent implements OnInit {
 
   projects: Project[] = [
     new Project(
-      'assets/images/dvir_portfolio.png',
+      'assets/images/projects/dvir_portfolio.png',
       'Dvir Datner portfolio - Website',
       'My portfolio website',
       "https://github.com/DvirDatner/my-portfolio"
     ),
     new Project(
-      'assets/images/nofar_portfolio.png',
+      'assets/images/projects/nofar_portfolio.png',
       'Nofar Datner portfolio - Website',
       "My sister's portfolio website",
       "https://github.com/DvirDatner/NofarDatnerPortfolio"
     ),
     new Project(
-      'assets/images/checkers_game.png',
+      'assets/images/projects/checkers_game.png',
       'Checkers Game - Web Game',
       'Web game developed as part of my Angular learning',
       "https://github.com/DvirDatner/checkers-game"
     ),
     new Project(
-      'assets/images/info_park.png',
+      'assets/images/projects/info_park.png',
       'InfoPark - Android App',
       'Android application developed in the last year of my B.Sc degree as the final project',
       "https://github.com/yanivys4/InfoPark-Frontend"
     ),
     new Project(
-      'assets/images/gold_miner.png',
+      'assets/images/projects/gold_miner.png',
       'Gold Miner - PC Game',
       'PC game developed in the second year of my B.Sc degree',
       "https://github.com/yanivys4/Gold-Miner"
