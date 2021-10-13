@@ -9,7 +9,6 @@ import { CertificatesComponent } from './certificates/certificates.component';
 import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ContactComponent } from './contact/contact.component';
-import { ProjectComponent } from './projects/project/project.component';
 
 import { NgxUsefulSwiperModule } from 'ngx-useful-swiper';
 
@@ -22,8 +21,7 @@ import { NgxUsefulSwiperModule } from 'ngx-useful-swiper';
     CertificatesComponent,
     AboutComponent,
     SkillsComponent,
-    ContactComponent,
-    ProjectComponent
+    ContactComponent
   ],
   imports: [
     BrowserModule,
