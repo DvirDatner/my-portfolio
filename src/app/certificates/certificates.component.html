@@ -1,1 +1,22 @@
-<p class="text-white">certificates works!</p>
+<div class="row justify-content-center mt-3">
+  <div class="col-12 text-center">
+    <h2 class="text-primary">My Certificates</h2>
+  </div>
+</div>
+<div class="row justify-content-center mt-2">
+    <div class="col-12 text-center">
+      <swiper [config]="config">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide text-center">
+              <img src="assets/images/angular_certificate.jpg" alt="angular certificate" />
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/images/javascript_certificate.jpg" alt="angular certificate" />
+              </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+      </swiper>
+    </div>
+  </div>

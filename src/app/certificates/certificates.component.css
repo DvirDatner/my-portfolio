@@ -1,0 +1,31 @@
+.swiper-wrapper {
+  box-sizing: border-box;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 80%;
+  border-radius: 20px;
+}
+
+.swiper-slide img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border: 2px solid #0275d8;
+  border-radius: 20px;
+  background-color: #292b2c;
+}
+
+.swiper-pagination {
+  bottom: 0px;
+}
