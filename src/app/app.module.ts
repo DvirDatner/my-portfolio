@@ -13,6 +13,7 @@ import { ContactComponent } from './contact/contact.component';
 
 import { NgxUsefulSwiperModule } from 'ngx-useful-swiper';
 import { AppRoutingModule } from './app-routing.module';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { AppRoutingModule } from './app-routing.module';
   imports: [
     BrowserModule,
     NgxUsefulSwiperModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [{provide : LocationStrategy , useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]

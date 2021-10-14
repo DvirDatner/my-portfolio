@@ -1,0 +1,7 @@
+p {
+    font-size: large;
+}
+
+.my-shadow {
+    box-shadow: 0 1rem 3rem rgba(52, 52, 228, 0.329)!important;
+}
