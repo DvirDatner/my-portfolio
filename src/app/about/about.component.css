@@ -1,3 +1,13 @@
 p {
     color: white;
+    font-size: large;
 }
+
+@media screen and (min-width: 992px) {
+    .center {
+      position: relative;
+      top: 50%;
+      transform: translate(0, -50%);
+      padding: 10px;
+    }
+  }

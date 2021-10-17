@@ -33,12 +33,6 @@ export class ProjectsComponent implements OnInit {
 
   projects: Project[] = [
     new Project(
-      'assets/images/projects/dvir_portfolio.png',
-      'Dvir Datner portfolio - Website',
-      'My portfolio website',
-      "https://github.com/DvirDatner/my-portfolio"
-    ),
-    new Project(
       'assets/images/projects/nofar_portfolio.png',
       'Nofar Datner portfolio - Website',
       "My sister's portfolio website",
@@ -61,6 +55,12 @@ export class ProjectsComponent implements OnInit {
       'Gold Miner - PC Game',
       'PC game developed in the second year of my B.Sc degree',
       "https://github.com/yanivys4/Gold-Miner"
+    ),
+    new Project(
+      'assets/images/projects/dvir_portfolio.png',
+      'Dvir Datner portfolio - Website',
+      'My portfolio website',
+      "https://github.com/DvirDatner/my-portfolio"
     ),
   ];
 

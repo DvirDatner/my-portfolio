@@ -1,7 +1,13 @@
 p {
-    font-size: large;
+  font-size: large;
+  margin: 10px 0;
 }
 
-.my-shadow {
-    box-shadow: 0 1rem 3rem rgba(52, 52, 228, 0.329)!important;
+@media screen and (min-width: 992px) {
+  .center {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 20px 0;
+  }
 }
