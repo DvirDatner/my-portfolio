@@ -16,6 +16,14 @@
   border-radius: 20px;
 }
 
+.swiper-slide:hover {
+  cursor: grab;
+}
+
+.swiper-slide:active {
+  cursor: grabbing;
+}
+
 .swiper-slide img {
   display: block;
   margin-left: auto;

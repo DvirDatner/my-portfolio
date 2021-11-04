@@ -1,8 +1,42 @@
-<app-header></app-header>
-<div class="container">
+<app-header [currentActive]="activePosition"></app-header>
+<div class="position-relative">
   <div class="row justify-content-center">
-    <div class="col-12 col-sm-10">
-      <router-outlet></router-outlet>
+    <div #home id="home" class="col-12 col-sm-10">
+      <app-home></app-home>
+    </div>
+  </div>
+  <div
+    class="row justify-content-center my-3"
+    style="background-color: #cccccc"
+  >
+    <div #projects id="projects" class="col-12">
+      <app-projects></app-projects>
+    </div>
+  </div>
+  <div class="row justify-content-center my-3">
+    <div #certificates id="certificates" class="col-12">
+      <app-certificates></app-certificates>
+    </div>
+  </div>
+  <div
+    class="row justify-content-center my-3"
+    style="background-color: #cccccc"
+  >
+    <div #about id="about" class="col-12">
+      <app-about></app-about>
+    </div>
+  </div>
+  <div class="row justify-content-center my-3">
+    <div #skills id="skills" class="col-12">
+      <app-skills></app-skills>
+    </div>
+  </div>
+  <div
+    class="row justify-content-center my-3"
+    style="background-color: #cccccc"
+  >
+    <div #contact id="contact" class="col-12">
+      <app-contact></app-contact>
     </div>
   </div>
 </div>

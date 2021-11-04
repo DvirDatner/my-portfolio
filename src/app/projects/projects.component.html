@@ -1,23 +1,30 @@
-<div class="row justify-content-center mt-3">
-  <div class="col-12 text-center">
-    <h2 class="text-primary">My Projects</h2>
-  </div>
-</div>
-<div class="row justify-content-center mt-2">
-  <div class="col-12 text-center">
-    <swiper [config]="config">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide text-white" *ngFor="let project of projects">
-          <a href="{{ project.link }}" target="blank">
-            <img src="{{ project.imgSrc }}" alt="{{ project.title }}" />
-            <h3 class="text-outline my-3">{{ project.title }}</h3>
-            <p class="text-outline">{{ project.description }}</p>
-          </a>
-        </div>
+<div class="row" style="min-height: 100vh">
+  <div class="col-12">
+    <div class="row justify-content-center mt-3">
+      <div class="col-12 col-lg-10 text-center">
+        <h2 class="text-primary">My Projects</h2>
       </div>
-      <div class="swiper-pagination"></div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-    </swiper>
+    </div>
+    <div class="row justify-content-center mt-2">
+      <div class="col-12 col-lg-8 text-center">
+        <swiper [config]="config">
+          <div class="swiper-wrapper">
+            <div
+              class="swiper-slide text-white"
+              *ngFor="let project of projects"
+            >
+              <a href="{{ project.link }}" target="blank">
+                <img src="{{ project.imgSrc }}" alt="{{ project.title }}" />
+                <h3 class="my-3">{{ project.title }}</h3>
+                <p>{{ project.description }}</p>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </swiper>
+      </div>
+    </div>
   </div>
 </div>

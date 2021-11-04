@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HashLocationStrategy, LocationStrategy  } from '@angular/common';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -12,7 +11,6 @@ import { SkillsComponent } from './skills/skills.component';
 import { ContactComponent } from './contact/contact.component';
 
 import { NgxUsefulSwiperModule } from 'ngx-useful-swiper';
-import { AppRoutingModule } from './app-routing.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
@@ -24,15 +22,10 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     CertificatesComponent,
     AboutComponent,
     SkillsComponent,
-    ContactComponent
+    ContactComponent,
   ],
-  imports: [
-    BrowserModule,
-    NgxUsefulSwiperModule,
-    AppRoutingModule,
-    FontAwesomeModule
-  ],
-  providers: [{provide : LocationStrategy , useClass: HashLocationStrategy}],
-  bootstrap: [AppComponent]
+  imports: [BrowserModule, NgxUsefulSwiperModule, FontAwesomeModule],
+  providers: [],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
