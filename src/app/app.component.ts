@@ -23,13 +23,13 @@ export class AppComponent {
   public contactOffset: Number | undefined;
 
   ngAfterViewInit() {
-    this.homeOffset = this.homeElement?.nativeElement.offsetTop - 10;
-    this.projectsOffset = this.projectsElement?.nativeElement.offsetTop - 10;
+    this.homeOffset = this.homeElement?.nativeElement.offsetTop;
+    this.projectsOffset = this.projectsElement?.nativeElement.offsetTop - 200;
     this.certificatesOffset =
-      this.certificatesElement?.nativeElement.offsetTop - 10;
-    this.aboutOffset = this.aboutElement?.nativeElement.offsetTop - 10;
-    this.skillsOffset = this.skillsElement?.nativeElement.offsetTop - 10;
-    this.contactOffset = this.contactElement?.nativeElement.offsetTop - 50;
+      this.certificatesElement?.nativeElement.offsetTop - 200;
+    this.aboutOffset = this.aboutElement?.nativeElement.offsetTop - 200;
+    this.skillsOffset = this.skillsElement?.nativeElement.offsetTop - 200;
+    this.contactOffset = this.contactElement?.nativeElement.offsetTop - 250;
   }
 
   @HostListener('window:scroll', ['$event'])
